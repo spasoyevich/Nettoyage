@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation - Société de Nettoyage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Société de Nettoyage</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="reservation.html">Réservation</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Réservez un service de nettoyage</h2>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="service">Service :</label>
+            <select id="service" name="service">
+                <option value="residential">Nettoyage résidentiel</option>
+                <option value="commercial">Nettoyage commercial</option>
+                <option value="windows">Nettoyage de vitres</option>
+                <option value="carpet">Nettoyage de tapis</option>
+            </select>
+            
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Heure :</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Réserver</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Société de Nettoyage. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
